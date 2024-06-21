@@ -85,11 +85,12 @@ const Section7 = () => {
             <Box
               sx={{
                 width: "100%",
-                height: {xs:"700px",sm:"700px",md:"600px"},
+                height: {xs:"100px",sm:"700px",md:"600px"},
                 bgcolor: "#f1c50e",
                 mx: "auto",
-                mt: { xs: "-410px", sm: "-380px", md: 0 },
+                mt: { xs: "-710px", sm: "-380px", md: 0 },
                 ml: { xs: 0,sm:0, md: 4 },
+                display:{xs:"none" ,sm:"inline-block"}
               }}
             />
           </Grid>
@@ -97,7 +98,7 @@ const Section7 = () => {
             <Box
               sx={{
                 ml: { xs: 0, sm: 0, md: -25 },
-                mt: {xs:'-190px' ,sm:'-250px' ,md:10},
+                mt: {xs:'10px' ,sm:'-300px' ,md:10},
                 position: "relative",
                 zIndex: 22,
               }}
